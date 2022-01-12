@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="557f5aec-6bb4-48c7-851d-ecbec87958c7">
+  <name>КД3_Закомментировать</name>
+  <synonym>
+    <key>en</key>
+    <value>Comment out text</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Закомментировать (КД3)</value>
+  </synonym>
+</mdclass:CommonPicture>

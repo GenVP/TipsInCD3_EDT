@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="04d6de74-a0dd-4883-a347-52238f444fe6" extendedConfigurationObject="d0aeb7f1-3c00-46ca-a311-452aa54a89c9">
+  <producedTypes>
+    <objectType typeId="a71e59f6-ac35-4c36-aafc-c1ec6887657c" valueTypeId="742d8235-3e00-47cf-9af0-843c6b434fea"/>
+    <refType typeId="27956fb5-c10d-43ff-a246-3996aa602eaa" valueTypeId="7c1b329f-6441-4fcf-a66b-226ff70332f7"/>
+    <selectionType typeId="97b6c688-d0b0-412e-9dec-a14d9dd5b56b" valueTypeId="d4cbae96-94c1-4258-aebf-e5d666e49e1b"/>
+    <listType typeId="a9ee5f80-c1e2-444e-8d09-8ecddb0bf5ad" valueTypeId="a0b34338-dbef-411a-8ab5-0839947f7129"/>
+    <managerType typeId="8d2d8a39-3393-4571-a358-3f59d86f9b1b" valueTypeId="c9a586e3-e9cc-49bf-a5eb-e2dc404c3fd5"/>
+  </producedTypes>
+  <name>ПравилаКонвертацииПредопределенныхДанных</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="cbdfa221-c4db-470b-8afa-7404be07b6bb" extendedConfigurationObject="fd4d8821-edc3-4427-b4f6-59df54590e11">
+    <name>ФормаЭлементаXML</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

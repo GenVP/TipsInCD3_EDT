@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="103f9c8a-e2ed-4c03-b02f-c30cf24c05e5">
+  <name>КД3_МетаданныеПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>К д3 метаданные повт исп</value>
+  </synonym>
+  <server>true</server>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

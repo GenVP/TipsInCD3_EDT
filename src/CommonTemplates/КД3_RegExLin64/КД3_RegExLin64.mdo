@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6b57669-4b99-46dd-9d25-9969db2f061c">
+  <name>КД3_RegExLin64</name>
+  <synonym>
+    <key>ru</key>
+    <value>Reg ex lin64 (КД3)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>К д3 reg ex lin64</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>К д3 reg ex lin64</value>
+  </synonym>
+  <comment>https://github.com/alexkmbk/RegEx1CAddin  версия 13</comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

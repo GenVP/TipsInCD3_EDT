@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5eb777bb-76b2-4cee-ae7f-90a1f974d299">
+  <name>КД3_КонтекстнаяПодсказка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контекстная подсказка в КД3</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b4741c03-a1f8-4958-8917-723d49d0a401"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2e401856-0e0f-4650-b4a8-15196aeb191d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="7f065abe-43a9-409c-9835-1479a4632f57"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="16a9f193-f49b-454a-960d-fb74ee2540be"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1d9f8752-0edb-4a00-b0fe-402ac976472f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="605ad015-f6b1-47c5-ad16-c91c28f9c1be"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="589edc23-13eb-4e20-a8a4-5fe86d77e62b"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>КД3_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>https://github.com/GenVP/TipsInCD3</vendor>
+  <version>1.2.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <languages uuid="25075fd8-0f2f-4ba0-9138-1b923da4006c" extendedConfigurationObject="fa4b0c84-7a43-4ab6-ad87-b4d5483f4d2c">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.Конфигурации</subsystems>
+  <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
+  <commonPictures>CommonPicture.Папка</commonPictures>
+  <commonPictures>CommonPicture.Успешно</commonPictures>
+  <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
+  <commonPictures>CommonPicture.КД3_УбратьКомментарии</commonPictures>
+  <commonPictures>CommonPicture.КД3_Закомментировать</commonPictures>
+  <commonPictures>CommonPicture.КД3_ДобавитьПереносСтроки</commonPictures>
+  <commonPictures>CommonPicture.КД3_УдалитьПереносСтроки</commonPictures>
+  <commonPictures>CommonPicture.КД3_Форматировать</commonPictures>
+  <commonTemplates>CommonTemplate.КД3_src</commonTemplates>
+  <commonTemplates>CommonTemplate.КД3_RegExWin32</commonTemplates>
+  <commonTemplates>CommonTemplate.КД3_RegExWin64</commonTemplates>
+  <commonTemplates>CommonTemplate.КД3_RegExLin32</commonTemplates>
+  <commonTemplates>CommonTemplate.КД3_RegExLin64</commonTemplates>
+  <commonModules>CommonModule.КД3_Метаданные</commonModules>
+  <commonModules>CommonModule.КД3_МетаданныеКлиент</commonModules>
+  <commonModules>CommonModule.КД3_МетаданныеПовтИсп</commonModules>
+  <commonModules>CommonModule.КД3_ЗагрузкаМетаданных</commonModules>
+  <commonModules>CommonModule.КД3_ЗагрузкаМетаданныхКлиентСервер</commonModules>
+  <commonModules>CommonModule.КД3_УправлениеФормой</commonModules>
+  <commonModules>CommonModule.КД3_УправлениеФормойКлиент</commonModules>
+  <commonModules>CommonModule.КД3_РедакторКодаКлиент</commonModules>
+  <commonModules>CommonModule.КД3_Настройки</commonModules>
+  <commonModules>CommonModule.КД3_НастройкиКлиент</commonModules>
+  <commonModules>CommonModule.КД3_УправлениеФормойВызовСервера</commonModules>
+  <commonModules>CommonModule.КД3_УправлениеФормойКлиентСервер</commonModules>
+  <commonModules>CommonModule.КонвертацияДанныхXDTOСервер</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыКлиент</commonModules>
+  <commonCommands>CommonCommand.КД3_Настройки</commonCommands>
+  <commonForms>CommonForm.КД3_Настройки</commonForms>
+  <catalogs>Catalog.ПравилаКонвертацииОбъектов</catalogs>
+  <catalogs>Catalog.ПравилаКонвертацииПредопределенныхДанных</catalogs>
+  <catalogs>Catalog.ПравилаКонвертацииСвойств</catalogs>
+  <catalogs>Catalog.ПравилаОбработкиДанных</catalogs>
+  <catalogs>Catalog.ПравилаРегистрацииОбъектов</catalogs>
+  <catalogs>Catalog.Алгоритмы</catalogs>
+  <catalogs>Catalog.Релизы</catalogs>
+  <catalogs>Catalog.Конвертации</catalogs>
+  <catalogs>Catalog.Конфигурации</catalogs>
+  <catalogs>Catalog.Запросы</catalogs>
+  <enums>Enum.ВариантыИдентификацииОбъектов</enums>
+  <dataProcessors>DataProcessor.КД3_ЗагрузкаСтруктурыКонфигурацииИзФайловXML</dataProcessors>
+</mdclass:Configuration>

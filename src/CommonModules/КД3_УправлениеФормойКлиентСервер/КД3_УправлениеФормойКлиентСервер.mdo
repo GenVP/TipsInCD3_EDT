@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7447e3c-4ab9-4731-be0b-318a9b43a901">
+  <name>КД3_УправлениеФормойКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление формой клиент сервер (КД3)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c94a120-faf9-486f-9a28-decf2d3bbddc">
+  <name>КД3_УбратьКомментарии</name>
+  <synonym>
+    <key>en</key>
+    <value>Remove comments in the text</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Убрать комментарии (КД3)</value>
+  </synonym>
+</mdclass:CommonPicture>
