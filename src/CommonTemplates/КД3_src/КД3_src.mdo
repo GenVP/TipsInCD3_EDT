@@ -5,6 +5,6 @@
     <key>ru</key>
     <value>src</value>
   </synonym>
-  <comment>20220103</comment>
+  <comment>20210915</comment>
   <templateType>BinaryData</templateType>
 </mdclass:CommonTemplate>
