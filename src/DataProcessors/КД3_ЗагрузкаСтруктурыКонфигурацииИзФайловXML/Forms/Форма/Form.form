@@ -934,6 +934,10 @@
             <segments>КД3_ЗагружатьМетодыМодулей</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>КД3_ЗагружатьМетодыМодулейПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>КД3_ЗагружатьМетодыМодулейРасширеннаяПодсказка</name>
             <id>68</id>
@@ -965,6 +969,53 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        </items>
+        <items xsi:type="form:Decoration">
+          <name>КД3_ИнфоЗагружаемыеМодули</name>
+          <id>85</id>
+          <title>
+            <key>ru</key>
+            <value>В конфигурации указан каталог исходных кодов.
+Будет загружен только глобальный контекст.</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>КД3_ИнфоЗагружаемыеМодулиРасширеннаяПодсказка</name>
+            <id>87</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>КД3_ИнфоЗагружаемыеМодулиКонтекстноеМеню</name>
+            <id>86</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxHeight>true</autoMaxHeight>
+          <textColor xsi:type="core:ColorRef">
+            <color>Style.SpecialTextColor</color>
+          </textColor>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
