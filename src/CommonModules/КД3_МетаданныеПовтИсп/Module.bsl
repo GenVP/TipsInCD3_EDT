@@ -6,6 +6,7 @@
 	СоответствиеТипов.Колонки.Добавить("ЕдEng");
 	СоответствиеТипов.Колонки.Добавить("МнEng");
 	СоответствиеТипов.Колонки.Добавить("console");
+	СоответствиеТипов.Колонки.Добавить("consoleL");
 	СоответствиеТипов.Колонки.Добавить("ЕстьПредопределенные", Новый ОписаниеТипов("Булево"));
 	СоответствиеТипов.Колонки.Добавить("ЕстьОбщийРеквизит", Новый ОписаниеТипов("Булево"));
 	СоответствиеТипов.Колонки.Добавить("НетВКД3", Новый ОписаниеТипов("Булево"));
@@ -40,6 +41,7 @@
 	СтрокаТЗ.МнEng = "ExchangePlans";
 	СтрокаТЗ.ЕстьОбщийРеквизит = Истина;
 	СтрокаТЗ.console = "exchangePlans";
+	СтрокаТЗ.consoleL = "exchangeplans";
 	
 	СтрокаТЗ = СоответствиеТипов.Добавить();
 	СтрокаТЗ.Ед = "Справочник";
@@ -49,6 +51,7 @@
 	СтрокаТЗ.ЕстьПредопределенные = Истина;
 	СтрокаТЗ.ЕстьОбщийРеквизит = Истина;
 	СтрокаТЗ.console = "catalogs";
+	СтрокаТЗ.consoleL = "catalogs";
 	
 	СтрокаТЗ = СоответствиеТипов.Добавить();
 	СтрокаТЗ.Ед = "Документ";
@@ -57,6 +60,7 @@
 	СтрокаТЗ.МнEng = "Documents";
 	СтрокаТЗ.ЕстьОбщийРеквизит = Истина;
 	СтрокаТЗ.console = "documents";
+	СтрокаТЗ.consoleL = "documents";
 	
 	СтрокаТЗ = СоответствиеТипов.Добавить();
 	СтрокаТЗ.Ед = "Перечисление";
@@ -64,6 +68,7 @@
 	СтрокаТЗ.ЕдEng = "Enum";
 	СтрокаТЗ.МнEng = "Enums";
 	СтрокаТЗ.console = "enums";
+	СтрокаТЗ.consoleL = "enums";
 	
 	СтрокаТЗ = СоответствиеТипов.Добавить();
 	СтрокаТЗ.Ед = "ПланВидовХарактеристик";
@@ -73,6 +78,7 @@
 	СтрокаТЗ.ЕстьПредопределенные = Истина;
 	СтрокаТЗ.ЕстьОбщийРеквизит = Истина;
 	СтрокаТЗ.console = "chartsOfCharacteristicTypes";
+	СтрокаТЗ.consoleL = "chartsofcharacteristictypes";
 	
 	СтрокаТЗ = СоответствиеТипов.Добавить();
 	СтрокаТЗ.Ед = "ПланСчетов";
@@ -82,6 +88,7 @@
 	СтрокаТЗ.ЕстьПредопределенные = Истина;
 	СтрокаТЗ.ЕстьОбщийРеквизит = Истина;
 	СтрокаТЗ.console = "сhartsOfAccounts";
+	СтрокаТЗ.consoleL = "сhartsofaccounts";
 	
 	СтрокаТЗ = СоответствиеТипов.Добавить();
 	СтрокаТЗ.Ед = "ПланВидовРасчета";
@@ -91,6 +98,7 @@
 	СтрокаТЗ.ЕстьПредопределенные = Истина;
 	СтрокаТЗ.ЕстьОбщийРеквизит = Истина;
 	СтрокаТЗ.console = "chartsOfCalculationTypes";
+	СтрокаТЗ.consoleL = "chartsofcalculationtypes";
 	
 	СтрокаТЗ = СоответствиеТипов.Добавить();
 	СтрокаТЗ.Ед = "РегистрСведений";
@@ -98,6 +106,7 @@
 	СтрокаТЗ.ЕдEng = "InformationRegister";
 	СтрокаТЗ.МнEng = "InformationRegisters";
 	СтрокаТЗ.console = "infoRegs";
+	СтрокаТЗ.consoleL = "inforegs";
 	
 	СтрокаТЗ = СоответствиеТипов.Добавить();
 	СтрокаТЗ.Ед = "РегистрНакопления";
@@ -105,6 +114,7 @@
 	СтрокаТЗ.ЕдEng = "AccumulationRegister";
 	СтрокаТЗ.МнEng = "AccumulationRegisters";
 	СтрокаТЗ.console = "accumRegs";
+	СтрокаТЗ.consoleL = "accumregs";
 	
 	СтрокаТЗ = СоответствиеТипов.Добавить();
 	СтрокаТЗ.Ед = "РегистрБухгалтерии";
@@ -112,6 +122,7 @@
 	СтрокаТЗ.ЕдEng = "AccountingRegister";
 	СтрокаТЗ.МнEng = "AccountingRegisters";
 	СтрокаТЗ.console = "accountRegs";
+	СтрокаТЗ.consoleL = "accountregs";
 	
 	СтрокаТЗ = СоответствиеТипов.Добавить();
 	СтрокаТЗ.Ед = "РегистрРасчета";
@@ -119,6 +130,7 @@
 	СтрокаТЗ.ЕдEng = "CalculationRegister";
 	СтрокаТЗ.МнEng = "CalculationRegisters";
 	СтрокаТЗ.console = "calcRegs";
+	СтрокаТЗ.consoleL = "calcregs";
 	
 	СтрокаТЗ = СоответствиеТипов.Добавить();
 	СтрокаТЗ.Ед = "БизнесПроцесс";
@@ -127,6 +139,7 @@
 	СтрокаТЗ.МнEng = "BusinessProcesses";
 	СтрокаТЗ.ЕстьОбщийРеквизит = Истина;
 	СтрокаТЗ.console = "businessProcesses";
+	СтрокаТЗ.consoleL = "businessprocesses";
 	
 	СтрокаТЗ = СоответствиеТипов.Добавить();
 	СтрокаТЗ.Ед = "Задача";
@@ -135,6 +148,7 @@
 	СтрокаТЗ.МнEng = "Tasks";
 	СтрокаТЗ.ЕстьОбщийРеквизит = Истина;
 	СтрокаТЗ.console = "tasks";
+	СтрокаТЗ.consoleL = "tasks";
 	
 	СтрокаТЗ = СоответствиеТипов.Добавить();
 	СтрокаТЗ.Ед = "Обработка";
@@ -182,6 +196,35 @@
 	СтрокаТЗ.МнEng = "DefinedTypes";
 	
 	Возврат СоответствиеТипов;
+	
+КонецФункции
+
+Функция ВсеТипыСвойствXML() Экспорт
+	
+	ВсеТипыСвойств = Новый Соответствие;
+	
+	//ВсеТипыСвойств.Вставить("BusinessProcessRoutePointRef", "");
+	ВсеТипыСвойств.Вставить("BusinessProcessRef", "businessProcesses");
+	ВсеТипыСвойств.Вставить("CatalogRef", "catalogs");
+	ВсеТипыСвойств.Вставить("ChartOfAccountsRef", "сhartsOfAccounts");
+	ВсеТипыСвойств.Вставить("ChartOfCalculationTypesRef", "chartsOfCalculationTypes");
+	ВсеТипыСвойств.Вставить("ChartOfCharacteristicTypesRef", "chartsOfCharacteristicTypes");
+	ВсеТипыСвойств.Вставить("DocumentRef", "documents");
+	ВсеТипыСвойств.Вставить("EnumRef", "enums");
+	ВсеТипыСвойств.Вставить("ExchangePlanRef", "exchangePlans");
+	ВсеТипыСвойств.Вставить("TaskRef", "tasks");
+	//ВсеТипыСвойств.Вставить("cfg:BusinessProcessRoutePointRef", "");
+	ВсеТипыСвойств.Вставить("cfg:BusinessProcessRef", "businessProcesses");
+	ВсеТипыСвойств.Вставить("cfg:CatalogRef", "catalogs");
+	ВсеТипыСвойств.Вставить("cfg:ChartOfAccountsRef", "сhartsOfAccounts");
+	ВсеТипыСвойств.Вставить("cfg:ChartOfCalculationTypesRef", "chartsOfCalculationTypes");
+	ВсеТипыСвойств.Вставить("cfg:ChartOfCharacteristicTypesRef", "chartsOfCharacteristicTypes");
+	ВсеТипыСвойств.Вставить("cfg:DocumentRef", "documents");
+	ВсеТипыСвойств.Вставить("cfg:EnumRef", "enums");
+	ВсеТипыСвойств.Вставить("cfg:ExchangePlanRef", "exchangePlans");
+	ВсеТипыСвойств.Вставить("cfg:TaskRef", "tasks");
+	
+	Возврат ВсеТипыСвойств;
 	
 КонецФункции
 
