@@ -20,16 +20,6 @@
 	СтрокаТЗ.console = "commonModules";
 	
 	СтрокаТЗ = СоответствиеТипов.Добавить();
-	СтрокаТЗ.Ед = "ОбщийРеквизит";
-	СтрокаТЗ.ЕдEng = "CommonAttribute";
-	СтрокаТЗ.МнEng = "CommonAttributes";
-	
-	СтрокаТЗ = СоответствиеТипов.Добавить();
-	СтрокаТЗ.Ед = "ПараметрСеанса";
-	СтрокаТЗ.ЕдEng = "SessionParameter";
-	СтрокаТЗ.МнEng = "SessionParameters";
-	
-	СтрокаТЗ = СоответствиеТипов.Добавить();
 	СтрокаТЗ.Ед = "Константа";
 	СтрокаТЗ.ЕдEng = "Constant";
 	СтрокаТЗ.МнEng = "Constants";
@@ -176,33 +166,10 @@
 	СтрокаТЗ.НетВКД3 = Истина;
 	
 	СтрокаТЗ = СоответствиеТипов.Добавить();
-	СтрокаТЗ.Ед = "ОбщийМакет";
-	СтрокаТЗ.Мн = "общиемакеты";
-	СтрокаТЗ.ЕдEng = "CommonTemplate";
-	СтрокаТЗ.МнEng = "CommonTemplates";
-	
-	СтрокаТЗ = СоответствиеТипов.Добавить();
-	СтрокаТЗ.Ед = "Макет";
-	СтрокаТЗ.Мн = "макеты";
-	СтрокаТЗ.ЕдEng = "Template";
-	СтрокаТЗ.МнEng = "Templates";
-	
-	СтрокаТЗ = СоответствиеТипов.Добавить();
 	СтрокаТЗ.Ед = "ЖурналДокументов";
 	СтрокаТЗ.Мн = "журналыдокументов";
 	СтрокаТЗ.ЕдEng = "DocumentJournal";
 	СтрокаТЗ.МнEng = "DocumentJournals";
-	
-	СтрокаТЗ = СоответствиеТипов.Добавить();
-	СтрокаТЗ.Ед = "РегламентноеЗадание";
-	СтрокаТЗ.Мн = "регламентныезадания";
-	СтрокаТЗ.ЕдEng = "ScheduledJob";
-	СтрокаТЗ.МнEng = "ScheduledJobs";
-	
-	СтрокаТЗ = СоответствиеТипов.Добавить();
-	СтрокаТЗ.Ед = "ОпределяемыйТип";
-	СтрокаТЗ.ЕдEng = "DefinedType";
-	СтрокаТЗ.МнEng = "DefinedTypes";
 	
 	Возврат СоответствиеТипов;
 	
@@ -212,26 +179,16 @@
 	
 	ВсеТипыСвойств = Новый Соответствие;
 	
-	//ВсеТипыСвойств.Вставить("BusinessProcessRoutePointRef", "");
-	ВсеТипыСвойств.Вставить("BusinessProcessRef", "businessProcesses");
-	ВсеТипыСвойств.Вставить("CatalogRef", "catalogs");
-	ВсеТипыСвойств.Вставить("ChartOfAccountsRef", "сhartsOfAccounts");
-	ВсеТипыСвойств.Вставить("ChartOfCalculationTypesRef", "chartsOfCalculationTypes");
-	ВсеТипыСвойств.Вставить("ChartOfCharacteristicTypesRef", "chartsOfCharacteristicTypes");
-	ВсеТипыСвойств.Вставить("DocumentRef", "documents");
-	ВсеТипыСвойств.Вставить("EnumRef", "enums");
-	ВсеТипыСвойств.Вставить("ExchangePlanRef", "exchangePlans");
-	ВсеТипыСвойств.Вставить("TaskRef", "tasks");
-	//ВсеТипыСвойств.Вставить("cfg:BusinessProcessRoutePointRef", "");
-	ВсеТипыСвойств.Вставить("cfg:BusinessProcessRef", "businessProcesses");
-	ВсеТипыСвойств.Вставить("cfg:CatalogRef", "catalogs");
-	ВсеТипыСвойств.Вставить("cfg:ChartOfAccountsRef", "сhartsOfAccounts");
-	ВсеТипыСвойств.Вставить("cfg:ChartOfCalculationTypesRef", "chartsOfCalculationTypes");
-	ВсеТипыСвойств.Вставить("cfg:ChartOfCharacteristicTypesRef", "chartsOfCharacteristicTypes");
-	ВсеТипыСвойств.Вставить("cfg:DocumentRef", "documents");
-	ВсеТипыСвойств.Вставить("cfg:EnumRef", "enums");
-	ВсеТипыСвойств.Вставить("cfg:ExchangePlanRef", "exchangePlans");
-	ВсеТипыСвойств.Вставить("cfg:TaskRef", "tasks");
+	//ВсеТипыСвойств.Вставить("BusinessProcessRoutePoint", "");
+	ВсеТипыСвойств.Вставить("BusinessProcess", "businessProcesses");
+	ВсеТипыСвойств.Вставить("Catalog", "catalogs");
+	ВсеТипыСвойств.Вставить("ChartOfAccounts", "сhartsOfAccounts");
+	ВсеТипыСвойств.Вставить("ChartOfCalculationTypes", "chartsOfCalculationTypes");
+	ВсеТипыСвойств.Вставить("ChartOfCharacteristicTypes", "chartsOfCharacteristicTypes");
+	ВсеТипыСвойств.Вставить("Document", "documents");
+	ВсеТипыСвойств.Вставить("Enum", "enums");
+	ВсеТипыСвойств.Вставить("ExchangePlan", "exchangePlans");
+	ВсеТипыСвойств.Вставить("Task", "tasks");
 	
 	Возврат ВсеТипыСвойств;
 	
