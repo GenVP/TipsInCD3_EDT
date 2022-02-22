@@ -83,4 +83,5 @@
   <catalogs>Catalog.Запросы</catalogs>
   <enums>Enum.ВариантыИдентификацииОбъектов</enums>
   <dataProcessors>DataProcessor.КД3_ЗагрузкаСтруктурыКонфигурацииИзФайловXML</dataProcessors>
+  <dataProcessors>DataProcessor.КД3_ЗагрузкаСтруктурыКонфигурацииИзФайловXMLМногопоточно</dataProcessors>
 </mdclass:Configuration>

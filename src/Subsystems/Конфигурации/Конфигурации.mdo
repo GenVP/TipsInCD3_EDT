@@ -6,5 +6,5 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
   <content>DataProcessor.КД3_ЗагрузкаСтруктурыКонфигурацииИзФайловXML</content>
-  <content>5187c1ba-e8ab-46c5-bd6c-c23e28e8f4e5</content>
+  <content>DataProcessor.КД3_ЗагрузкаСтруктурыКонфигурацииИзФайловXMLМногопоточно</content>
 </mdclass:Subsystem>
