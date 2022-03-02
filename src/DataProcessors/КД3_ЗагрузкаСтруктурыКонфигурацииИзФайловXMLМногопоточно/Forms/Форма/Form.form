@@ -866,6 +866,7 @@
           <name>КД3_МестоХраненияИндексов</name>
           <id>77</id>
           <visible>true</visible>
+          <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
@@ -982,6 +983,7 @@
           <name>КД3_ЗагружатьМетодыМодулей</name>
           <id>66</id>
           <visible>true</visible>
+          <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>

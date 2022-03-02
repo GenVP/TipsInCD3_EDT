@@ -1219,20 +1219,20 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>К3_ПрогрессТекст</name>
-        <id>74</id>
+        <name>КД3_ПрогрессТекст0</name>
+        <id>88</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>КД3_ПрогрессОбщийТекст</segments>
+          <segments>КД3_ПрогрессТекст0</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>К3_ПрогрессТекстРасширеннаяПодсказка</name>
-          <id>76</id>
+          <name>КД3_ПрогрессТекст0РасширеннаяПодсказка</name>
+          <id>90</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1246,8 +1246,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>К3_ПрогрессТекстКонтекстноеМеню</name>
-          <id>75</id>
+          <name>КД3_ПрогрессТекст0КонтекстноеМеню</name>
+          <id>89</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1265,20 +1265,23 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>КД3_ПрогрессОбщий</name>
-        <id>69</id>
-        <visible>true</visible>
+        <name>КД3_Прогресс0</name>
+        <id>91</id>
+        <title>
+          <key>ru</key>
+          <value>Прогресс0</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>КД3_ПрогрессОбщий</segments>
+          <segments>КД3_Прогресс0</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>КД3_ПрогрессОбщийРасширеннаяПодсказка</name>
-          <id>71</id>
+          <name>КД3_Прогресс0РасширеннаяПодсказка</name>
+          <id>93</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1292,8 +1295,62 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>КД3_ПрогрессОбщийКонтекстноеМеню</name>
-          <id>70</id>
+          <name>КД3_Прогресс0КонтекстноеМеню</name>
+          <id>92</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>ProgressBarField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:ProgressBarFieldExtInfo">
+          <width>32</width>
+          <autoMaxWidth>true</autoMaxWidth>
+          <height>1</height>
+          <autoMaxHeight>true</autoMaxHeight>
+          <maxValue>100</maxValue>
+          <showPercent>true</showPercent>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>КД3_Прогресс1</name>
+        <id>94</id>
+        <title>
+          <key>ru</key>
+          <value>Прогресс1</value>
+        </title>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>КД3_Прогресс1</segments>
+        </dataPath>
+        <titleLocation>Right</titleLocation>
+        <extendedTooltip>
+          <name>КД3_Прогресс1РасширеннаяПодсказка</name>
+          <id>96</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>КД3_Прогресс1КонтекстноеМеню</name>
+          <id>95</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1684,44 +1741,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>КД3_ПрогрессОбщий</name>
-    <title>
-      <key>ru</key>
-      <value>Прогресс (КД3)</value>
-    </title>
-    <id>11</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КД3_ПрогрессОбщийТекст</name>
-    <title>
-      <key>ru</key>
-      <value>Прогресс текст (КД3)</value>
-    </title>
-    <id>12</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>КД3_МестоХраненияИндексов</name>
     <title>
       <key>ru</key>
@@ -1748,6 +1767,56 @@
       <value>Каталог индексов метаданных</value>
     </title>
     <id>14</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КД3_Прогресс0</name>
+    <id>8</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КД3_Прогресс1</name>
+    <id>15</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КД3_ПрогрессТекст0</name>
+    <title>
+      <key>ru</key>
+      <value>Прогресс текст (КД3)</value>
+    </title>
+    <id>16</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
