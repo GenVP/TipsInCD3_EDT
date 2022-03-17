@@ -802,66 +802,66 @@
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
       </items>
-      <items xsi:type="form:FormGroup">
-        <name>КД3_ГруппаКонтекстнаяПодсказка</name>
-        <id>83</id>
-        <items xsi:type="form:FormField">
-          <name>КД3_КоличествоПотоков</name>
-          <id>127</id>
+      <items xsi:type="form:FormField">
+        <name>КД3_КоличествоПотоков</name>
+        <id>127</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>КД3_КоличествоПотоков</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>КД3_КоличествоПотоковРасширеннаяПодсказка</name>
+          <id>129</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>КД3_КоличествоПотоков</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>КД3_КоличествоПотоковРасширеннаяПодсказка</name>
-            <id>129</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>КД3_КоличествоПотоковКонтекстноеМеню</name>
-            <id>128</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <spinButton>true</spinButton>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <minValue xsi:type="core:NumberValue">
-              <value>1</value>
-            </minValue>
-            <maxValue xsi:type="core:NumberValue">
-              <value>8</value>
-            </maxValue>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
           </extInfo>
-        </items>
+        </extendedTooltip>
+        <contextMenu>
+          <name>КД3_КоличествоПотоковКонтекстноеМеню</name>
+          <id>128</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <spinButton>true</spinButton>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+          <minValue xsi:type="core:NumberValue">
+            <value>1</value>
+          </minValue>
+          <maxValue xsi:type="core:NumberValue">
+            <value>8</value>
+          </maxValue>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>КД3_ГруппаКонтекстнаяПодсказка</name>
+        <id>83</id>
         <items xsi:type="form:FormField">
           <name>КД3_МестоХраненияИндексов</name>
           <id>77</id>
@@ -875,10 +875,10 @@
           </dataPath>
           <toolTip>
             <key>ru</key>
-            <value>Место хранения дополнительных метаданных (отчеты, обработки, общие модули)
-Не хранить - дополнительные метаданные не загружаются
+            <value>Место хранения дополнительных метаданных (методов модулей):
 В каталоге - сохраняются в выбранном каталоге
-В информационной базе - сохраняются в РС &quot;Хранилище безопасных данных&quot;</value>
+В информационной базе - сохраняются в РС &quot;Хранилище безопасных данных&quot;
+Не хранить - метаданные подсказки получаются в момент вызова</value>
           </toolTip>
           <toolTipRepresentation>Button</toolTipRepresentation>
           <handlers>
@@ -979,25 +979,113 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
-        <items xsi:type="form:FormField">
-          <name>КД3_ЗагружатьМетодыМодулей</name>
-          <id>66</id>
+        <items xsi:type="form:FormGroup">
+          <name>Группа1</name>
+          <id>130</id>
+          <items xsi:type="form:FormField">
+            <name>КД3_ЗагружатьМетодыМодулей</name>
+            <id>66</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>КД3_ЗагружатьМетодыМодулей</segments>
+            </dataPath>
+            <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>КД3_ЗагружатьМетодыМодулейПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>КД3_ЗагружатьМетодыМодулейРасширеннаяПодсказка</name>
+              <id>68</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>КД3_ЗагружатьМетодыМодулейКонтекстноеМеню</name>
+              <id>67</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>КД3_СохранитьКаталогДляКонфигурации</name>
+            <id>132</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>КД3_СохранитьКаталогДляКонфигурации</segments>
+            </dataPath>
+            <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>КД3_УказатьКаталогФайловВКонфигурацииПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>КД3_СохранитьКаталогДляКонфигурацииРасширеннаяПодсказка</name>
+              <id>134</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>КД3_СохранитьКаталогДляКонфигурацииКонтекстноеМеню</name>
+              <id>133</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>КД3_ЗагружатьМетодыМодулей</segments>
-          </dataPath>
-          <titleLocation>Right</titleLocation>
-          <handlers>
-            <event>OnChange</event>
-            <name>КД3_ЗагружатьМетодыМодулейПриИзменении</name>
-          </handlers>
           <extendedTooltip>
-            <name>КД3_ЗагружатьМетодыМодулейРасширеннаяПодсказка</name>
-            <id>68</id>
+            <name>Группа1РасширеннаяПодсказка</name>
+            <id>131</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1010,22 +1098,14 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <contextMenu>
-            <name>КД3_ЗагружатьМетодыМодулейКонтекстноеМеню</name>
-            <id>67</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>CheckBoxField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>AlwaysHorizontal</group>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
         </items>
         <items xsi:type="form:Decoration">
           <name>КД3_ИнфоЗагружаемыеМодули</name>
@@ -1898,7 +1978,6 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
-      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:FormGroup">
@@ -1932,7 +2011,6 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
-        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -1963,7 +2041,6 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
-        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -2388,6 +2465,23 @@
         <precision>10</precision>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КД3_СохранитьКаталогДляКонфигурации</name>
+    <title>
+      <key>ru</key>
+      <value>Сохранить каталог файлов для конфигурации (КД3)</value>
+    </title>
+    <id>23</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>
