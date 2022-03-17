@@ -28,7 +28,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>https://github.com/GenVP/TipsInCD3</vendor>
-  <version>1.2.2</version>
+  <version>1.2.3</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <languages uuid="25075fd8-0f2f-4ba0-9138-1b923da4006c" extendedConfigurationObject="fa4b0c84-7a43-4ab6-ad87-b4d5483f4d2c">
     <name>Русский</name>
