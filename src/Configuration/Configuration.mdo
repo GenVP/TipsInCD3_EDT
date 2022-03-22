@@ -55,6 +55,7 @@
   <commonTemplates>CommonTemplate.КД3_RegExWin64</commonTemplates>
   <commonTemplates>CommonTemplate.КД3_RegExLin32</commonTemplates>
   <commonTemplates>CommonTemplate.КД3_RegExLin64</commonTemplates>
+  <commonTemplates>CommonTemplate.КД3_src_linux</commonTemplates>
   <commonModules>CommonModule.КД3_Метаданные</commonModules>
   <commonModules>CommonModule.КД3_МетаданныеКлиент</commonModules>
   <commonModules>CommonModule.КД3_МетаданныеПовтИсп</commonModules>

@@ -419,22 +419,159 @@
     <name>ГруппаКонсольКода</name>
     <id>33</id>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаЗагрузитьКонсольКода</name>
-      <id>50</id>
+      <name>ГруппаКонсольКодаОС</name>
+      <id>61</id>
       <items xsi:type="form:FormGroup">
-        <name>ГруппаКомандыЗагрузитьКонсольКода</name>
-        <id>52</id>
-        <items xsi:type="form:Button">
-          <name>ЗагрузитьКонсольКодаИзФайла</name>
-          <id>41</id>
+        <name>ГруппаWin</name>
+        <id>63</id>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаЗагрузитьКонсольКодаWin</name>
+          <id>50</id>
+          <items xsi:type="form:FormGroup">
+            <name>ГруппаКомандыЗагрузитьКонсольКодаWin</name>
+            <id>52</id>
+            <items xsi:type="form:Button">
+              <name>ЗагрузитьКонсольКодаИзФайлаWin</name>
+              <id>41</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ЗагрузитьКонсольКодаИзФайлаWinРасширеннаяПодсказка</name>
+                <id>42</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ЗагрузитьКонсольКодаИзФайлаWin</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <toolTipRepresentation>Auto</toolTipRepresentation>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
+              <name>ЗагрузитьКонсольКодаИзМакетаWin</name>
+              <id>43</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ЗагрузитьКонсольКодаИзМакетаWinРасширеннаяПодсказка</name>
+                <id>44</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ЗагрузитьКонсольКодаИзМакетаWin</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <toolTipRepresentation>Auto</toolTipRepresentation>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
+              <name>ЗагрузитьКонсольКодаИзGitHubDevelopWin</name>
+              <id>54</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ЗагрузитьКонсольКодаИзGitHubDevelopWinРасширеннаяПодсказка</name>
+                <id>55</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ЗагрузитьКонсольКодаИзGitHubDevelopWin</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <toolTipRepresentation>Auto</toolTipRepresentation>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Загрузить bsl_console</value>
+            </title>
+            <toolTip>
+              <key>ru</key>
+              <value>Группа команды загрузить консоль кода win</value>
+            </toolTip>
+            <extendedTooltip>
+              <name>ГруппаКомандыЗагрузитьКонсольКодаWinРасширеннаяПодсказка</name>
+              <id>53</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Popup</type>
+            <extInfo xsi:type="form:PopupGroupExtInfo">
+              <representation>Auto</representation>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Загрузить:</value>
+          </title>
+          <toolTip>
+            <key>ru</key>
+            <value>Группа загрузить консоль кода win</value>
+          </toolTip>
           <extendedTooltip>
-            <name>ЗагрузитьКонсольКодаИзФайлаРасширеннаяПодсказка</name>
-            <id>42</id>
+            <name>ГруппаЗагрузитьКонсольКодаWinРасширеннаяПодсказка</name>
+            <id>51</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -447,24 +584,26 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>Form.Command.ЗагрузитьКонсольКодаИзФайла</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <representationInContextMenu>Auto</representationInContextMenu>
+          <type>CommandBar</type>
+          <extInfo xsi:type="form:CommandBarExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
         </items>
-        <items xsi:type="form:Button">
-          <name>ЗагрузитьКонсольКодаИзМакета</name>
-          <id>43</id>
+        <items xsi:type="form:Decoration">
+          <name>КонсольКодаИнформацияWin</name>
+          <id>35</id>
+          <title>
+            <key>ru</key>
+            <value>Расположение консоли кода</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ЗагрузитьКонсольКодаИзМакетаРасширеннаяПодсказка</name>
-            <id>44</id>
+            <name>КонсольКодаИнформацияWinРасширеннаяПодсказка</name>
+            <id>37</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -477,42 +616,23 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>Form.Command.ЗагрузитьКонсольКодаИзМакета</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <representationInContextMenu>Auto</representationInContextMenu>
-        </items>
-        <items xsi:type="form:Button">
-          <name>ЗагрузитьКонсольКодаИзGitHubDevelop</name>
-          <id>54</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>ЗагрузитьКонсольКодаИзGitHubDevelopРасширеннаяПодсказка</name>
-            <id>55</id>
+          <contextMenu>
+            <name>КонсольКодаИнформацияWinКонтекстноеМеню</name>
+            <id>36</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <commandName>Form.Command.ЗагрузитьКонсольКодаИзGitHubDevelop</commandName>
-          <representation>Auto</representation>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <representationInContextMenu>Auto</representationInContextMenu>
+          <horizontalStretch>true</horizontalStretch>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -521,11 +641,15 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Загрузить bsl_console</value>
+          <value>Windows</value>
         </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа win</value>
+        </toolTip>
         <extendedTooltip>
-          <name>ГруппаКомандыЗагрузитьКонсольКодаРасширеннаяПодсказка</name>
-          <id>53</id>
+          <name>ГруппаWinРасширеннаяПодсказка</name>
+          <id>64</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -538,9 +662,195 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <type>Popup</type>
-        <extInfo xsi:type="form:PopupGroupExtInfo">
-          <representation>Auto</representation>
+        <type>Page</type>
+        <extInfo xsi:type="form:PageGroupExtInfo">
+          <group>Vertical</group>
+          <showTitle>true</showTitle>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаLinux</name>
+        <id>65</id>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаЗагрузитьКонсольКодаLin</name>
+          <id>67</id>
+          <items xsi:type="form:FormGroup">
+            <name>ГруппаКомандыЗагрузитьКонсольКодаLin</name>
+            <id>69</id>
+            <items xsi:type="form:Button">
+              <name>ЗагрузитьКонсольКодаИзМакетаLin</name>
+              <id>73</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ЗагрузитьКонсольКодаИзМакетаLinРасширеннаяПодсказка</name>
+                <id>74</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ЗагрузитьКонсольКодаИзМакетаLin</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <toolTipRepresentation>Auto</toolTipRepresentation>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Загрузить bsl_console</value>
+            </title>
+            <toolTip>
+              <key>ru</key>
+              <value>Группа команды загрузить консоль кода lin</value>
+            </toolTip>
+            <extendedTooltip>
+              <name>ГруппаКомандыЗагрузитьКонсольКодаLinРасширеннаяПодсказка</name>
+              <id>70</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Popup</type>
+            <extInfo xsi:type="form:PopupGroupExtInfo">
+              <representation>Auto</representation>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Загрузить:</value>
+          </title>
+          <toolTip>
+            <key>ru</key>
+            <value>Группа загрузить консоль кода lin</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>ГруппаЗагрузитьКонсольКодаLinРасширеннаяПодсказка</name>
+            <id>68</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>CommandBar</type>
+          <extInfo xsi:type="form:CommandBarExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
+        <items xsi:type="form:Decoration">
+          <name>КонсольКодаИнформацияLin</name>
+          <id>75</id>
+          <title>
+            <key>ru</key>
+            <value>Расположение консоли кода</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>КонсольКодаИнформацияLinРасширеннаяПодсказка</name>
+            <id>77</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>КонсольКодаИнформацияLinКонтекстноеМеню</name>
+            <id>76</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Linux</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа linux</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ГруппаLinuxРасширеннаяПодсказка</name>
+          <id>66</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Page</type>
+        <extInfo xsi:type="form:PageGroupExtInfo">
+          <group>Vertical</group>
+          <showTitle>true</showTitle>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -550,43 +860,16 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Загрузить:</value>
+        <value>Группа консоль кода ОС</value>
       </title>
-      <extendedTooltip>
-        <name>ГруппаЗагрузитьКонсольКодаРасширеннаяПодсказка</name>
-        <id>51</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>CommandBar</type>
-      <extInfo xsi:type="form:CommandBarExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </items>
-    <items xsi:type="form:Decoration">
-      <name>КонсольКодаИнформация</name>
-      <id>35</id>
-      <title>
+      <toolTip>
         <key>ru</key>
-        <value>Расположение консоли кода</value>
-      </title>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
+        <value>Группа консоль кода ОС</value>
+      </toolTip>
+      <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
-        <name>КонсольКодаИнформацияРасширеннаяПодсказка</name>
-        <id>37</id>
+        <name>ГруппаКонсольКодаОСРасширеннаяПодсказка</name>
+        <id>62</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -599,22 +882,10 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <contextMenu>
-        <name>КонсольКодаИнформацияКонтекстноеМеню</name>
-        <id>36</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <horizontalStretch>true</horizontalStretch>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
+      <type>Pages</type>
+      <extInfo xsi:type="form:PagesGroupExtInfo">
+        <pagesRepresentation>TabsOnTop</pagesRepresentation>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -842,6 +1113,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -873,6 +1145,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InCommandBar</locationInCommandBar>
     </items>
@@ -1079,7 +1352,7 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ЗагрузитьКонсольКодаИзФайла</name>
+    <name>ЗагрузитьКонсольКодаИзФайлаWin</name>
     <title>
       <key>ru</key>
       <value>Из файла</value>
@@ -1087,20 +1360,20 @@
     <id>2</id>
     <toolTip>
       <key>ru</key>
-      <value>Загрузить консоль кода из файла</value>
+      <value>Загрузить консоль кода из файла win</value>
     </toolTip>
     <use>
       <common>true</common>
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ЗагрузитьКонсольКодаИзФайла</name>
+        <name>ЗагрузитьКонсольКодаИзФайлаWin</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ЗагрузитьКонсольКодаИзМакета</name>
+    <name>ЗагрузитьКонсольКодаИзМакетаWin</name>
     <title>
       <key>ru</key>
       <value>Из макета</value>
@@ -1108,33 +1381,53 @@
     <id>3</id>
     <toolTip>
       <key>ru</key>
-      <value>Загрузить консоль кода из макета</value>
+      <value>Загрузить консоль кода из макета win</value>
     </toolTip>
     <use>
       <common>true</common>
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ЗагрузитьКонсольКодаИзМакета</name>
+        <name>ЗагрузитьКонсольКодаИзМакетаWin</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ЗагрузитьКонсольКодаИзGitHubDevelop</name>
+    <name>ЗагрузитьКонсольКодаИзGitHubDevelopWin</name>
     <title>
       <key>ru</key>
       <value>Из GitHub, ветка develop</value>
     </title>
     <id>4</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Загрузить консоль кода из git hub develop win</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ЗагрузитьКонсольКодаИзGitHubDevelop</name>
+        <name>ЗагрузитьКонсольКодаИзGitHubDevelopWin</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗагрузитьКонсольКодаИзМакетаLin</name>
+    <title>
+      <key>ru</key>
+      <value>Из макета</value>
+    </title>
+    <id>6</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Загрузить консоль кода из макета win</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
