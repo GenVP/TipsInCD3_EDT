@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdf08a76-aa5a-4165-8b86-25106ced191b">
+  <name>КД3_src_linux</name>
+  <synonym>
+    <key>ru</key>
+    <value>src</value>
+  </synonym>
+  <comment>20220322</comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>
