@@ -73,17 +73,18 @@
   <commonModules>CommonModule.КонвертацияДанныхXDTOСервер</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыКлиент</commonModules>
   <commonCommands>CommonCommand.КД3_Настройки</commonCommands>
+  <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
   <commonForms>CommonForm.КД3_Настройки</commonForms>
+  <catalogs>Catalog.Алгоритмы</catalogs>
+  <catalogs>Catalog.Запросы</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииОбъектов</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииПредопределенныхДанных</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииСвойств</catalogs>
   <catalogs>Catalog.ПравилаОбработкиДанных</catalogs>
   <catalogs>Catalog.ПравилаРегистрацииОбъектов</catalogs>
-  <catalogs>Catalog.Алгоритмы</catalogs>
   <catalogs>Catalog.Релизы</catalogs>
-  <catalogs>Catalog.Конвертации</catalogs>
   <catalogs>Catalog.Конфигурации</catalogs>
-  <catalogs>Catalog.Запросы</catalogs>
+  <catalogs>Catalog.Конвертации</catalogs>
   <enums>Enum.ВариантыИдентификацииОбъектов</enums>
   <dataProcessors>DataProcessor.КД3_ЗагрузкаСтруктурыКонфигурацииИзФайловXML</dataProcessors>
   <dataProcessors>DataProcessor.КД3_ЗагрузкаСтруктурыКонфигурацииИзФайловXMLМногопоточно</dataProcessors>
