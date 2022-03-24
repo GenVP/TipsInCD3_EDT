@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="400a7bce-edab-4a0e-af4e-cbe534c56947">
+  <name>КД3_ПарсерМодулей1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Парсер модулей 1С (КД3)</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

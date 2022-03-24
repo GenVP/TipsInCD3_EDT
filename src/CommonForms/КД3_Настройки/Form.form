@@ -988,6 +988,76 @@
     <name>ГруппаЗагрузкаИзФайлов</name>
     <id>59</id>
     <items xsi:type="form:FormField">
+      <name>ПарсерМодулей</name>
+      <id>78</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПарсерМодулей</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ПарсерМодулейРасширеннаяПодсказка</name>
+        <id>80</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПарсерМодулейКонтекстноеМеню</name>
+        <id>79</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>false</horizontalStretch>
+        <wrap>true</wrap>
+        <listChoiceMode>true</listChoiceMode>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+        <choiceList>
+          <presentation>
+            <key>ru</key>
+            <value>кодом 1С</value>
+          </presentation>
+          <value xsi:type="core:StringValue">
+            <value>1С</value>
+          </value>
+        </choiceList>
+        <choiceList>
+          <presentation>
+            <key>ru</key>
+            <value>регулярками</value>
+          </presentation>
+          <value xsi:type="core:StringValue">
+            <value>RegExp</value>
+          </value>
+        </choiceList>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>КоличествоПотоков</name>
       <id>56</id>
       <title>
@@ -1072,7 +1142,7 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
+      <group>Vertical</group>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
@@ -1322,6 +1392,24 @@
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПарсерМодулей</name>
+    <title>
+      <key>ru</key>
+      <value>Способ анализа модулей</value>
+    </title>
+    <id>10</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>

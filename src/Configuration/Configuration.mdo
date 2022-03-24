@@ -68,6 +68,8 @@
   <commonModules>CommonModule.КД3_НастройкиКлиент</commonModules>
   <commonModules>CommonModule.КД3_УправлениеФормойВызовСервера</commonModules>
   <commonModules>CommonModule.КД3_УправлениеФормойКлиентСервер</commonModules>
+  <commonModules>CommonModule.КД3_ПарсерМодулей1С</commonModules>
+  <commonModules>CommonModule.КД3_ПарсерМодулейRegExp</commonModules>
   <commonModules>CommonModule.КонвертацияДанныхXDTOСервер</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыКлиент</commonModules>
   <commonCommands>CommonCommand.КД3_Настройки</commonCommands>
