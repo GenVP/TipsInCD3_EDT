@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8b8f7c2-ceff-40ce-821b-598e05b64492">
+  <name>КД3_ЛокальныйКонтекстXDTO</name>
+  <synonym>
+    <key>ru</key>
+    <value>КД3 Локальный контекстt XDTO</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

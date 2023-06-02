@@ -28,7 +28,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>https://github.com/GenVP/TipsInCD3_EDT</vendor>
-  <version>1.2.4</version>
+  <version>1.2.8</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <languages uuid="25075fd8-0f2f-4ba0-9138-1b923da4006c" extendedConfigurationObject="fa4b0c84-7a43-4ab6-ad87-b4d5483f4d2c">
     <name>Русский</name>
@@ -56,6 +56,9 @@
   <commonTemplates>CommonTemplate.КД3_RegExLin32</commonTemplates>
   <commonTemplates>CommonTemplate.КД3_RegExLin64</commonTemplates>
   <commonTemplates>CommonTemplate.КД3_src_linux</commonTemplates>
+  <commonTemplates>CommonTemplate.КД3_ЛокальныйКонтекстXML</commonTemplates>
+  <commonTemplates>CommonTemplate.КД3_ЛокальныйКонтекстXDTO</commonTemplates>
+  <commonTemplates>CommonTemplate.КД3_ЛокальныйКонтекстПРО</commonTemplates>
   <commonModules>CommonModule.КД3_Метаданные</commonModules>
   <commonModules>CommonModule.КД3_МетаданныеКлиент</commonModules>
   <commonModules>CommonModule.КД3_МетаданныеПовтИсп</commonModules>
@@ -77,6 +80,7 @@
   <commonForms>CommonForm.КД3_Настройки</commonForms>
   <catalogs>Catalog.Алгоритмы</catalogs>
   <catalogs>Catalog.Запросы</catalogs>
+  <catalogs>Catalog.Конвертации</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииОбъектов</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииПредопределенныхДанных</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииСвойств</catalogs>
@@ -84,8 +88,8 @@
   <catalogs>Catalog.ПравилаРегистрацииОбъектов</catalogs>
   <catalogs>Catalog.Релизы</catalogs>
   <catalogs>Catalog.Конфигурации</catalogs>
-  <catalogs>Catalog.Конвертации</catalogs>
   <enums>Enum.ВариантыИдентификацииОбъектов</enums>
-  <dataProcessors>DataProcessor.КД3_ЗагрузкаСтруктурыКонфигурацииИзФайловXML</dataProcessors>
+  <enums>Enum.ВидыОбработчиков</enums>
   <dataProcessors>DataProcessor.КД3_ЗагрузкаСтруктурыКонфигурацииИзФайловXMLМногопоточно</dataProcessors>
+  <informationRegisters>InformationRegister.КомментарииКОбработчикам</informationRegisters>
 </mdclass:Configuration>

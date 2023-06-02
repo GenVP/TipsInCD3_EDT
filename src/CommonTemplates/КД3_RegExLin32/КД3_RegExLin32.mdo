@@ -2,16 +2,16 @@
 <mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3025cd3-73bd-434d-b663-ca17480b1218">
   <name>КД3_RegExLin32</name>
   <synonym>
-    <key>ru</key>
-    <value>Reg ex lin32 (КД3)</value>
-  </synonym>
-  <synonym>
     <key>en</key>
     <value>К д3 reg ex lin32</value>
   </synonym>
   <synonym>
     <key>uk</key>
     <value>К д3 reg ex lin32</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Reg ex lin32 (КД3)</value>
   </synonym>
   <comment>https://github.com/alexkmbk/RegEx1CAddin  версия 13</comment>
   <templateType>BinaryData</templateType>
