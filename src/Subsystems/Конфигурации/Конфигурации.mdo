@@ -5,6 +5,6 @@
   <extension xsi:type="mdclassExtension:SubsystemExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
-  <content>DataProcessor.КД3_ЗагрузкаСтруктурыКонфигурацииИзФайловXML</content>
+  <content>5a428e53-ddb1-449e-9681-a21927259b75</content>
   <content>DataProcessor.КД3_ЗагрузкаСтруктурыКонфигурацииИзФайловXMLМногопоточно</content>
 </mdclass:Subsystem>

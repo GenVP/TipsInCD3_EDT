@@ -62,9 +62,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Owner</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ВладелецРасширеннаяПодсказка</name>
         <id>9</id>
@@ -200,9 +197,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>УказыватьСвойстваСтрокой</segments>
-      </dataPath>
       <extendedTooltip>
         <name>УказыватьСвойстваСтрокойРасширеннаяПодсказка</name>
         <id>30</id>
@@ -249,9 +243,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ПолучитьИзВходящихДанных</segments>
-      </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
         <name>ПолучитьИзВходящихДанныхРасширеннаяПодсказка</name>
@@ -297,9 +288,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Отключить</segments>
-      </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
         <name>ОтключитьРасширеннаяПодсказка</name>
@@ -386,9 +374,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.СвойствоКонфигурации</segments>
-          </dataPath>
           <extendedTooltip>
             <name>СвойствоКонфигурацииРасширеннаяПодсказка</name>
             <id>39</id>
@@ -444,9 +429,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.СвойствоКонфигурацииКорреспондента</segments>
-          </dataPath>
           <extendedTooltip>
             <name>СвойствоКонфигурацииКорреспондентаРасширеннаяПодсказка</name>
             <id>74</id>
@@ -502,9 +484,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.СвойствоФормата</segments>
-          </dataPath>
           <extendedTooltip>
             <name>СвойствоФорматаРасширеннаяПодсказка</name>
             <id>42</id>
@@ -588,9 +567,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТипСвойстваКонфигурации</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ТипСвойстваКонфигурацииРасширеннаяПодсказка</name>
             <id>47</id>
@@ -644,9 +620,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТипСвойстваКонфигурацииКорреспондента</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ТипСвойстваКонфигурацииКорреспондентаРасширеннаяПодсказка</name>
             <id>77</id>
@@ -695,9 +668,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТипСвойстваФормата</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ТипСвойстваФорматаРасширеннаяПодсказка</name>
             <id>50</id>
@@ -779,9 +749,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ИспользуетсяАлгоритмКонвертации</segments>
-        </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
           <name>ИспользуетсяАлгоритмКонвертацииРасширеннаяПодсказка</name>
@@ -858,9 +825,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.УдалитьСвойствоКонфигурации</segments>
-          </dataPath>
           <extendedTooltip>
             <name>СвойствоКонфигурацииСтрокойРасширеннаяПодсказка</name>
             <id>57</id>
@@ -908,9 +872,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.СвойствоФормата</segments>
-          </dataPath>
           <extendedTooltip>
             <name>СвойствоФорматаСтрокойРасширеннаяПодсказка</name>
             <id>60</id>
@@ -1061,9 +1022,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ИмяОбработчикаПередОбработкой</segments>
-            </dataPath>
             <toolTipRepresentation>Button</toolTipRepresentation>
             <extendedTooltip>
               <name>ИмяОбработчикаПередОбработкойРасширеннаяПодсказка</name>
@@ -1132,9 +1090,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.АлгоритмПередОбработкойВыгрузки</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>АлгоритмПередОбработкойВыгрузкиРасширеннаяПодсказка</name>
@@ -1216,9 +1171,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ИмяОбработчикаПередВыгрузкой</segments>
-            </dataPath>
             <toolTipRepresentation>Button</toolTipRepresentation>
             <extendedTooltip>
               <name>ИмяОбработчикаПередВыгрузкойРасширеннаяПодсказка</name>
@@ -1286,9 +1238,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.АлгоритмПередВыгрузкойСвойства</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>АлгоритмПередВыгрузкойСвойстваРасширеннаяПодсказка</name>
@@ -1370,9 +1319,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ИмяОбработчикаПриВыгрузке</segments>
-            </dataPath>
             <toolTipRepresentation>Button</toolTipRepresentation>
             <extendedTooltip>
               <name>ИмяОбработчикаПриВыгрузкеРасширеннаяПодсказка</name>
@@ -1441,9 +1387,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.АлгоритмПриВыгрузкеСвойства</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>АлгоритмПриВыгрузкеСвойстваРасширеннаяПодсказка</name>
@@ -1525,9 +1468,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ИмяОбработчикаПослеВыгрузки</segments>
-            </dataPath>
             <toolTipRepresentation>Button</toolTipRepresentation>
             <extendedTooltip>
               <name>ИмяОбработчикаПослеВыгрузкиРасширеннаяПодсказка</name>
@@ -1596,9 +1536,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.АлгоритмПослеВыгрузкиСвойства</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>АлгоритмПослеВыгрузкиСвойстваРасширеннаяПодсказка</name>
@@ -1680,9 +1617,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ИмяОбработчикаПослеОбработки</segments>
-            </dataPath>
             <toolTipRepresentation>Button</toolTipRepresentation>
             <extendedTooltip>
               <name>ИмяОбработчикаПослеОбработкиРасширеннаяПодсказка</name>
@@ -1752,9 +1686,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.АлгоритмПослеОбработкиВыгрузки</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>АлгоритмПослеОбработкиВыгрузкиРасширеннаяПодсказка</name>
@@ -1899,9 +1830,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Description</segments>
-          </dataPath>
           <extendedTooltip>
             <name>НаименованиеРасширеннаяПодсказка</name>
             <id>140</id>
@@ -1950,9 +1878,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Code</segments>
-          </dataPath>
           <extendedTooltip>
             <name>КодРасширеннаяПодсказка</name>
             <id>137</id>
@@ -2001,9 +1926,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Порядок</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ПорядокРасширеннаяПодсказка</name>
             <id>153</id>
@@ -2088,9 +2010,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ВыгружатьГруппуЧерезФайл</segments>
-        </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
           <name>ВыгружатьГруппуЧерезФайлРасширеннаяПодсказка</name>
@@ -2136,9 +2055,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.НеЗамещать</segments>
-        </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
           <name>НеЗамещатьРасширеннаяПодсказка</name>
@@ -2240,9 +2156,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Комментарий</segments>
-    </dataPath>
     <extendedTooltip>
       <name>КомментарийРасширеннаяПодсказка</name>
       <id>63</id>

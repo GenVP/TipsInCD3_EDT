@@ -58,9 +58,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Code</segments>
-      </dataPath>
       <extendedTooltip>
         <name>КодРасширеннаяПодсказка</name>
         <id>3</id>
@@ -108,9 +105,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ГруппаПравил</segments>
-      </dataPath>
       <extendedTooltip>
         <name>РодительРасширеннаяПодсказка</name>
         <id>19</id>
@@ -158,9 +152,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ИспользуетсяПриЗагрузке</segments>
-      </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
         <name>ИспользуетсяПриЗагрузкеРасширеннаяПодсказка</name>
@@ -282,9 +273,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ТекстЗапроса</segments>
-    </dataPath>
     <extendedTooltip>
       <name>ТекстЗапросаРасширеннаяПодсказка</name>
       <id>6</id>
@@ -332,9 +320,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Комментарий</segments>
-    </dataPath>
     <extendedTooltip>
       <name>КомментарийРасширеннаяПодсказка</name>
       <id>12</id>
@@ -399,12 +384,11 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ДобавитьЭлементВСоставКонвертации</commandName>
+      <commandName>0</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
-      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
@@ -428,5 +412,4 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo"/>
 </form:Form>

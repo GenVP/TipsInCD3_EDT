@@ -11,9 +11,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </dataPath>
       <extendedTooltip>
         <name>НаименованиеРасширеннаяПодсказка</name>
         <id>3</id>
@@ -61,9 +58,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.КонфигурацияВладелец</segments>
-      </dataPath>
       <extendedTooltip>
         <name>КонфигурацияВладелецРасширеннаяПодсказка</name>
         <id>32</id>
@@ -151,9 +145,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Имя</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ИмяРасширеннаяПодсказка</name>
         <id>6</id>
@@ -205,9 +196,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Синоним</segments>
-      </dataPath>
       <extendedTooltip>
         <name>СинонимРасширеннаяПодсказка</name>
         <id>9</id>
@@ -290,9 +278,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Версия</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ВерсияРасширеннаяПодсказка</name>
         <id>15</id>
@@ -340,9 +325,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Приложение</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ПриложениеРасширеннаяПодсказка</name>
         <id>18</id>
@@ -394,9 +376,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ДатаОбновления</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ДатаОбновленияРасширеннаяПодсказка</name>
         <id>25</id>
@@ -479,9 +458,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ОбновлятьМетаданныеПоРасписанию</segments>
-      </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
         <name>ОбновлятьМетаданныеПоРасписаниюРасширеннаяПодсказка</name>
@@ -539,12 +515,11 @@
         </extInfo>
       </extendedTooltip>
       <type>Hyperlink</type>
-      <commandName>Form.Command.НастроитьРасписаниеРегламентногоЗадания</commandName>
+      <commandName>0</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
-      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
@@ -595,9 +570,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.КаталогЗагрузки</segments>
-      </dataPath>
       <extendedTooltip>
         <name>КаталогЗагрузкиРасширеннаяПодсказка</name>
         <id>40</id>
@@ -650,9 +622,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВариантЗагрузкиДвижений</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ВариантЗагрузкиДвиженийРасширеннаяПодсказка</name>
         <id>50</id>
@@ -721,9 +690,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ИсточникДанных</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ИсточникДанныхРасширеннаяПодсказка</name>
         <id>43</id>
@@ -790,9 +756,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ЕстьРасширения</segments>
-        </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
           <name>ЕстьРасширенияРасширеннаяПодсказка</name>
@@ -834,9 +797,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Расширения</segments>
-        </dataPath>
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
           <name>РасширенияНомерСтроки</name>
@@ -846,9 +806,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Расширения.LineNumber</segments>
-          </dataPath>
           <extendedTooltip>
             <name>РасширенияНомерСтрокиРасширеннаяПодсказка</name>
             <id>86</id>
@@ -892,9 +849,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Расширения.ИмяКаталогаЗагрузки</segments>
-          </dataPath>
           <extendedTooltip>
             <name>РасширенияИмяКаталогаЗагрузкиРасширеннаяПодсказка</name>
             <id>89</id>
@@ -979,6 +933,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>РасширенияСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1017,6 +972,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>РасширенияСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1055,6 +1011,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>РасширенияУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1159,9 +1116,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.АдресGitСервера</segments>
-          </dataPath>
           <toolTip>
             <key>ru</key>
             <value>Адрес Git репозитория проекта на сервере по ssh, http или https </value>
@@ -1229,12 +1183,11 @@
             </extInfo>
           </extendedTooltip>
           <type>UsualButton</type>
-          <commandName>Form.Command.ПолучитьИзменения</commandName>
+          <commandName>0</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
-          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
@@ -1278,9 +1231,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.КаталогGitРепозитория</segments>
-        </dataPath>
         <toolTip>
           <key>ru</key>
           <value>Локальный каталог Git репозитория</value>
@@ -1332,9 +1282,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ИмяВеткиРепозитория</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ИмяВеткиРепозиторияРасширеннаяПодсказка</name>
           <id>61</id>
@@ -1453,9 +1400,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Комментарий</segments>
-    </dataPath>
     <extendedTooltip>
       <name>КомментарийРасширеннаяПодсказка</name>
       <id>12</id>
@@ -1520,12 +1464,11 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ЗагрузитьСтруктуруКонфигурации</commandName>
+      <commandName>0</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
-      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
@@ -1548,5 +1491,4 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo"/>
 </form:Form>
