@@ -64,6 +64,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ОбъектНастройки</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ОбъектНастройкиРасширеннаяПодсказка</name>
             <id>24</id>
@@ -115,6 +118,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Отключить</segments>
+          </dataPath>
           <titleLocation>Right</titleLocation>
           <extendedTooltip>
             <name>ОтключитьРасширеннаяПодсказка</name>
@@ -242,6 +248,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.РеквизитРежимаВыгрузкиОбъектовОбмена</segments>
+        </dataPath>
         <extendedTooltip>
           <name>РеквизитРежимаВыгрузкиОбъектовОбменаРасширеннаяПодсказка</name>
           <id>33</id>
@@ -300,6 +309,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоОтборПоСвойствамПланаОбмена</segments>
+        </dataPath>
         <titleLocation>Top</titleLocation>
         <items xsi:type="form:FormField">
           <name>ДеревоОтборПоСвойствамПланаОбменаСвойствоОбъекта</name>
@@ -309,6 +321,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоОтборПоСвойствамПланаОбмена.СвойствоОбъекта</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ДеревоОтборПоСвойствамПланаОбменаСвойствоОбъектаРасширеннаяПодсказка</name>
             <id>69</id>
@@ -356,6 +371,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоОтборПоСвойствамПланаОбмена.ВидСравнения</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ДеревоОтборПоСвойствамПланаОбменаВидСравненияРасширеннаяПодсказка</name>
             <id>72</id>
@@ -403,6 +421,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоОтборПоСвойствамПланаОбмена.СвойствоПланаОбмена</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ДеревоОтборПоСвойствамПланаОбменаСвойствоПланаОбменаРасширеннаяПодсказка</name>
             <id>75</id>
@@ -450,6 +471,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоОтборПоСвойствамПланаОбмена.ТипСвойстваОбъекта</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ДеревоОтборПоСвойствамПланаОбменаТипСвойстваОбъектаРасширеннаяПодсказка</name>
             <id>78</id>
@@ -516,7 +540,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0</commandName>
+            <commandName>Form.Command.ОтборПланаОбменаДобавитьСвойство</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -546,7 +570,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0</commandName>
+            <commandName>Form.Command.ОтборПланаОбменаДобавитьЗначение</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -576,7 +600,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0</commandName>
+            <commandName>Form.Command.ОтборПланаОбменаДобавитьГруппу</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -606,7 +630,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0</commandName>
+            <commandName>Form.Item.ДеревоОтборПоСвойствамПланаОбмена.StandardCommand.Change</commandName>
             <representation>Picture</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -637,7 +661,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0</commandName>
+            <commandName>Form.Item.ДеревоОтборПоСвойствамПланаОбмена.StandardCommand.Delete</commandName>
             <representation>Picture</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -668,7 +692,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0</commandName>
+            <commandName>Form.Item.ДеревоОтборПоСвойствамПланаОбмена.StandardCommand.MoveUp</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -698,7 +722,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0</commandName>
+            <commandName>Form.Item.ДеревоОтборПоСвойствамПланаОбмена.StandardCommand.MoveDown</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -877,6 +901,9 @@
         <verticalStretch>true</verticalStretch>
         <enableStartDrag>true</enableStartDrag>
         <enableDrag>true</enableDrag>
+        <rowPictureDataPath xsi:type="form:DataPath">
+          <segments>ДеревоОтборПоСвойствамПланаОбмена.ЭтоГруппа</segments>
+        </rowPictureDataPath>
         <rowsPicture xsi:type="core:PictureRef">
           <picture>CommonPicture.Папка</picture>
         </rowsPicture>
@@ -896,6 +923,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоОтборПоСвойствамОбъекта</segments>
+        </dataPath>
         <titleLocation>Top</titleLocation>
         <items xsi:type="form:FormField">
           <name>ДеревоОтборПоСвойствамОбъектаСвойствоОбъекта</name>
@@ -905,6 +935,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоОтборПоСвойствамОбъекта.СвойствоОбъекта</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ДеревоОтборПоСвойствамОбъектаСвойствоОбъектаРасширеннаяПодсказка</name>
             <id>111</id>
@@ -952,6 +985,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоОтборПоСвойствамОбъекта.ВидСравнения</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ДеревоОтборПоСвойствамОбъектаВидСравненияРасширеннаяПодсказка</name>
             <id>117</id>
@@ -999,6 +1035,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоОтборПоСвойствамОбъекта.ЗначениеКонстанты</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ДеревоОтборПоСвойствамОбъектаЗначениеКонстантыРасширеннаяПодсказка</name>
             <id>108</id>
@@ -1049,6 +1088,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоОтборПоСвойствамОбъекта.ТипСвойстваОбъекта</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ДеревоОтборПоСвойствамОбъектаТипСвойстваОбъектаРасширеннаяПодсказка</name>
             <id>114</id>
@@ -1096,6 +1138,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоОтборПоСвойствамОбъекта.ЭтоГруппа</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ДеревоОтборПоСвойствамОбъектаЭтоГруппаРасширеннаяПодсказка</name>
             <id>120</id>
@@ -1135,6 +1180,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоОтборПоСвойствамОбъекта.БулевоЗначениеГруппы</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ДеревоОтборПоСвойствамОбъектаБулевоЗначениеГруппыРасширеннаяПодсказка</name>
             <id>123</id>
@@ -1181,6 +1229,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоОтборПоСвойствамОбъекта.ВидЭлементаОтбора</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ДеревоОтборПоСвойствамОбъектаВидЭлементаОтбораРасширеннаяПодсказка</name>
             <id>126</id>
@@ -1246,7 +1297,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0</commandName>
+            <commandName>Form.Command.ОтборСвойстваОбъектаДобавитьСвойство</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1276,7 +1327,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0</commandName>
+            <commandName>Form.Command.ОтборСвойстваОбъектаДобавитьГруппу</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1306,7 +1357,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0</commandName>
+            <commandName>Form.Item.ДеревоОтборПоСвойствамОбъекта.StandardCommand.Change</commandName>
             <representation>Picture</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1337,7 +1388,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0</commandName>
+            <commandName>Form.Item.ДеревоОтборПоСвойствамОбъекта.StandardCommand.Delete</commandName>
             <representation>Picture</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1368,7 +1419,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0</commandName>
+            <commandName>Form.Item.ДеревоОтборПоСвойствамОбъекта.StandardCommand.MoveDown</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1398,7 +1449,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0</commandName>
+            <commandName>Form.Item.ДеревоОтборПоСвойствамОбъекта.StandardCommand.MoveUp</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1577,6 +1628,9 @@
         <verticalStretch>true</verticalStretch>
         <enableStartDrag>true</enableStartDrag>
         <enableDrag>true</enableDrag>
+        <rowPictureDataPath xsi:type="form:DataPath">
+          <segments>ДеревоОтборПоСвойствамОбъекта.ЭтоГруппа</segments>
+        </rowPictureDataPath>
         <rowsPicture xsi:type="core:PictureRef">
           <picture>CommonPicture.Папка</picture>
         </rowsPicture>
@@ -1633,6 +1687,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.АлгоритмПередОбработкойПравила</segments>
+            </dataPath>
             <titleLocation>None</titleLocation>
             <toolTipRepresentation>Button</toolTipRepresentation>
             <extendedTooltip>
@@ -1757,6 +1814,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.АлгоритмПриОбработкеПравила</segments>
+            </dataPath>
             <titleLocation>None</titleLocation>
             <toolTipRepresentation>Button</toolTipRepresentation>
             <extendedTooltip>
@@ -1884,6 +1944,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.АлгоритмПриОбработкеДополнительныйПравила</segments>
+            </dataPath>
             <titleLocation>None</titleLocation>
             <toolTipRepresentation>Button</toolTipRepresentation>
             <extendedTooltip>
@@ -2021,6 +2084,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.АлгоритмПослеОбработкиПравила</segments>
+            </dataPath>
             <titleLocation>None</titleLocation>
             <toolTipRepresentation>Button</toolTipRepresentation>
             <extendedTooltip>
@@ -2199,6 +2265,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Description</segments>
+        </dataPath>
         <extendedTooltip>
           <name>НаименованиеРасширеннаяПодсказка</name>
           <id>3</id>
@@ -2245,6 +2314,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Parent</segments>
+        </dataPath>
         <extendedTooltip>
           <name>РодительРасширеннаяПодсказка</name>
           <id>6</id>
@@ -2291,6 +2363,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ТегВырезки</segments>
+        </dataPath>
         <extendedTooltip>
           <name>ТегВырезкиРасширеннаяПодсказка</name>
           <id>149</id>
@@ -2340,6 +2415,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Описание</segments>
+        </dataPath>
         <extendedTooltip>
           <name>ОписаниеРасширеннаяПодсказка</name>
           <id>27</id>
@@ -2448,6 +2526,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Комментарий</segments>
+    </dataPath>
     <extendedTooltip>
       <name>КомментарийРасширеннаяПодсказка</name>
       <id>21</id>
@@ -2515,7 +2596,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>0</commandName>
+      <commandName>Form.Command.КопироватьПравило</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>

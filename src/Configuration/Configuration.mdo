@@ -80,6 +80,7 @@
   <commonForms>CommonForm.КД3_Настройки</commonForms>
   <catalogs>Catalog.Алгоритмы</catalogs>
   <catalogs>Catalog.Запросы</catalogs>
+  <catalogs>Catalog.Конвертации</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииОбъектов</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииПредопределенныхДанных</catalogs>
   <catalogs>Catalog.ПравилаКонвертацииСвойств</catalogs>
@@ -87,7 +88,6 @@
   <catalogs>Catalog.ПравилаРегистрацииОбъектов</catalogs>
   <catalogs>Catalog.Релизы</catalogs>
   <catalogs>Catalog.Конфигурации</catalogs>
-  <catalogs>Catalog.Конвертации</catalogs>
   <enums>Enum.ВариантыИдентификацииОбъектов</enums>
   <enums>Enum.ВидыОбработчиков</enums>
   <dataProcessors>DataProcessor.КД3_ЗагрузкаСтруктурыКонфигурацииИзФайловXMLМногопоточно</dataProcessors>
