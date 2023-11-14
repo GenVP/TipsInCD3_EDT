@@ -28,7 +28,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>https://github.com/GenVP/TipsInCD3_EDT</vendor>
-  <version>1.2.8</version>
+  <version>1.2.9</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <languages uuid="25075fd8-0f2f-4ba0-9138-1b923da4006c" extendedConfigurationObject="fa4b0c84-7a43-4ab6-ad87-b4d5483f4d2c">
     <name>Русский</name>
@@ -42,6 +42,7 @@
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.Конфигурации</subsystems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <commonPictures>CommonPicture.Папка</commonPictures>
   <commonPictures>CommonPicture.Успешно</commonPictures>
   <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
@@ -50,6 +51,7 @@
   <commonPictures>CommonPicture.КД3_ДобавитьПереносСтроки</commonPictures>
   <commonPictures>CommonPicture.КД3_УдалитьПереносСтроки</commonPictures>
   <commonPictures>CommonPicture.КД3_Форматировать</commonPictures>
+  <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
   <commonTemplates>CommonTemplate.КД3_src</commonTemplates>
   <commonTemplates>CommonTemplate.КД3_RegExWin32</commonTemplates>
   <commonTemplates>CommonTemplate.КД3_RegExWin64</commonTemplates>
@@ -88,8 +90,11 @@
   <catalogs>Catalog.ПравилаРегистрацииОбъектов</catalogs>
   <catalogs>Catalog.Релизы</catalogs>
   <catalogs>Catalog.Конфигурации</catalogs>
+  <catalogs>Catalog.ДополнительныеМодули</catalogs>
+  <catalogs>Catalog.Свойства</catalogs>
   <enums>Enum.ВариантыИдентификацииОбъектов</enums>
   <enums>Enum.ВидыОбработчиков</enums>
+  <enums>Enum.РазделыДополнительныхМодулей</enums>
   <dataProcessors>DataProcessor.КД3_ЗагрузкаСтруктурыКонфигурацииИзФайловXMLМногопоточно</dataProcessors>
   <informationRegisters>InformationRegister.КомментарииКОбработчикам</informationRegisters>
 </mdclass:Configuration>

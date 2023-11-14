@@ -2251,6 +2251,171 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
+      <name>СтраницаПакетныйОбработчик</name>
+      <id>150</id>
+      <items xsi:type="form:Decoration">
+        <name>ПакетнаяОбработкаПримечание</name>
+        <id>152</id>
+        <title>
+          <key>ru</key>
+          <value>&lt;fontsize 10>&lt;b>&lt;color #ff0000>Внимание!&lt;/>&lt;/>&lt;/>
+
+Событие возникает только при использовании обработки &quot;&lt;b>Регистрация изменений для обмена&lt;/>» (команды &quot;&lt;i>Зарегистрировать изменения всех объектов выбранных типов&lt;/>&quot; и &quot;&lt;i>Зарегистрировать изменения объектов при помощи отбора&lt;/>&quot;) и при выгрузке данных через &lt;b>EnterpriseData&lt;/>.
+
+Алгоритм обработчика должен повторять алгоритмы обработчиков &quot;&lt;b>Перед обработкой&lt;/>&quot;, &quot;&lt;b>При обработке&lt;/>&quot; и &quot;&lt;b>После обработки&lt;/>&quot;, а так же &lt;i>отбор по свойствам плана обмена&lt;/> и&lt;i> отбор по свойствам объекта&lt;/>.
+
+Доступно в Библиотеке синхронизации данных с версии 1.0.3
+
+При записи объекта в ИБ будут выполнены обработчики &quot;&lt;b>Перед обработкой&lt;/>&quot;, &quot;&lt;b>При обработке&lt;/>&quot;, &quot;&lt;b>При обработке (доп)&lt;/>&quot; и &quot;&lt;b>После обработки&lt;/>&quot; и &lt;i>отбор по свойствам плана обмена&lt;/> и&lt;i> отбор по свойствам объекта&lt;/>.</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ПакетнаяОбработкаПримечаниеРасширеннаяПодсказка</name>
+          <id>154</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ПакетнаяОбработкаПримечаниеКонтекстноеМеню</name>
+          <id>153</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <formatted>true</formatted>
+        <type>Label</type>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+          <backColor xsi:type="core:ColorRef">
+            <color>Style.ToolTipBackColor</color>
+          </backColor>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>АлгоритмПакетнаяОбработкаРегистрации</name>
+        <id>155</id>
+        <title>
+          <key>ru</key>
+          <value>Обработчик пакетной регистрации</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.АлгоритмПакетнаяОбработкаРегистрации</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <toolTipRepresentation>Button</toolTipRepresentation>
+        <extendedTooltip>
+          <name>АлгоритмПакетнаяОбработкаРегистрацииРасширеннаяПодсказка</name>
+          <id>157</id>
+          <title>
+            <key>ru</key>
+            <value>&lt;font Almarai>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>Обработчик пакетной регистрации &lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Almarai>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>Условие возникновения события&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Almarai>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333> &lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Almarai>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>Событие выполняется &lt;bgcolor #ffffff>при пакетной регистрации массива ссылок на узле&lt;/>&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Almarai>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333> &lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Almarai>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>Контекст выполнения&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Almarai>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333> &lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Almarai>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>&lt;bgcolor #ffffff>При регистрации изменений на узле&lt;/>; При выгрузке.&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Almarai>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333> &lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Almarai>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>Параметры:&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Almarai>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333> &lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Almarai>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>&lt;bgcolor #ffffff>МассивСсылок&lt;/> – &lt;bgcolor #ffffff>Массив&lt;/> – ссылки подлежащие регистрации. Содержимое массива может быть изменено.&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Almarai>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>&lt;bgcolor #ffffff>Узел&lt;/> – &lt;bgcolor #ffffff>План обмена ссылка&lt;/> –  уз&lt;bgcolor #ffffff>ел&lt;/>-получатель, на котор&lt;bgcolor #ffffff>ом&lt;/> будет зарегистрирован  объект.&lt;/>&lt;/>&lt;/>&lt;/></value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <formatted>true</formatted>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>АлгоритмПакетнаяОбработкаРегистрацииКонтекстноеМеню</name>
+          <id>156</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <multiLine>true</multiLine>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Обработчик пакетной регистрации</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Страница пакетный обработчик</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>СтраницаПакетныйОбработчикРасширеннаяПодсказка</name>
+        <id>151</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo">
+        <group>Vertical</group>
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
       <name>СтраницаДополнительно</name>
       <id>52</id>
       <items xsi:type="form:FormField">
