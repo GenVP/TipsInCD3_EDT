@@ -3,7 +3,7 @@
   <name>КД3_Настройки</name>
   <synonym>
     <key>ru</key>
-    <value>Настройки контекстной подсказки</value>
+    <value>Настройки контекстной подсказки (КД3)</value>
   </synonym>
   <group>NavigationPanelOrdinary</group>
   <commandParameterType/>

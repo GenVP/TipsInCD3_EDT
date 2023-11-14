@@ -11,6 +11,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>ИспользоватьРедакторКода</segments>
     </dataPath>
+    <toolTip>
+      <key>ru</key>
+      <value>Отображение цветного оформления для всех обработчиков</value>
+    </toolTip>
     <handlers>
       <event>OnChange</event>
       <name>ИспользоватьРедакторКодаПриИзменении</name>
@@ -61,6 +65,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>ИспользоватьКонтекстнуюПодсказку</segments>
       </dataPath>
+      <toolTip>
+        <key>ru</key>
+        <value>Использование контекстной подсказки при вводе кода обработчиков.</value>
+      </toolTip>
       <extendedTooltip>
         <name>ИспользоватьКонтекстнуюПодсказкуРасширеннаяПодсказка</name>
         <id>24</id>
@@ -151,6 +159,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>УдалятьВременныеФайлыПриЗакрытии</segments>
       </dataPath>
+      <toolTip>
+        <key>ru</key>
+        <value>Удаление временных файлов консоли кода при закрытии 1С. Расположение файлов см. ниже - &quot;Расположение консоли кода&quot;.</value>
+      </toolTip>
       <extendedTooltip>
         <name>УдалятьВременныеФайлыПриЗакрытииРасширеннаяПодсказка</name>
         <id>21</id>
@@ -458,7 +470,6 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
-              <toolTipRepresentation>Auto</toolTipRepresentation>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <items xsi:type="form:Button">
@@ -489,7 +500,6 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
-              <toolTipRepresentation>Auto</toolTipRepresentation>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <items xsi:type="form:Button">
@@ -520,7 +530,6 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
-              <toolTipRepresentation>Auto</toolTipRepresentation>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <visible>true</visible>
@@ -705,7 +714,6 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <placementArea>UserCmds</placementArea>
-              <toolTipRepresentation>Auto</toolTipRepresentation>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <visible>true</visible>
@@ -998,6 +1006,12 @@
       <dataPath xsi:type="form:DataPath">
         <segments>ПарсерМодулей</segments>
       </dataPath>
+      <toolTip>
+        <key>ru</key>
+        <value>- регулярками: платформа 8.3.23 и старше - платформенные методы, иначе внешняя компонента github.com/alexkmbk/RegEx1CAddin
+- кодом 1С: кодом 1С из проекта github.com/bia-technologies/bsl-parser</value>
+      </toolTip>
+      <toolTipRepresentation>Button</toolTipRepresentation>
       <extendedTooltip>
         <name>ПарсерМодулейРасширеннаяПодсказка</name>
         <id>80</id>
@@ -1183,7 +1197,6 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
-      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -1215,7 +1228,6 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
-      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InCommandBar</locationInCommandBar>
     </items>

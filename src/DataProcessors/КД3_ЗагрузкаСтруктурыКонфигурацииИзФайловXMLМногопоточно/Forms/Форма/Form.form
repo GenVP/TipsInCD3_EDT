@@ -1359,68 +1359,23 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>КД3_ПрогрессТекст0</name>
-        <id>74</id>
+        <name>КД3_Прогресс</name>
+        <id>69</id>
+        <title>
+          <key>ru</key>
+          <value>Прогресс0</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>КД3_ПрогрессТекст0</segments>
+          <segments>КД3_ПрогрессПроцент</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>КД3_ПрогрессТекст0РасширеннаяПодсказка</name>
-          <id>76</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>КД3_ПрогрессТекст0КонтекстноеМеню</name>
-          <id>75</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>LabelField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:LabelFieldExtInfo">
-          <autoMaxHeight>true</autoMaxHeight>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormField">
-        <name>КД3_Прогресс0</name>
-        <id>69</id>
-        <title>
-          <key>ru</key>
-          <value>Прогресс0</value>
-        </title>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КД3_Прогресс0</segments>
-        </dataPath>
-        <titleLocation>None</titleLocation>
-        <extendedTooltip>
-          <name>КД3_Прогресс0РасширеннаяПодсказка</name>
+          <name>КД3_ПрогрессРасширеннаяПодсказка</name>
           <id>71</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1435,7 +1390,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>КД3_Прогресс0КонтекстноеМеню</name>
+          <name>КД3_ПрогрессКонтекстноеМеню</name>
           <id>70</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1459,23 +1414,20 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>КД3_Прогресс1</name>
-        <id>103</id>
-        <title>
-          <key>ru</key>
-          <value>Прогресс1</value>
-        </title>
+        <name>КД3_ПрогрессТекст</name>
+        <id>74</id>
+        <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>КД3_Прогресс1</segments>
+          <segments>КД3_ПрогрессТекст</segments>
         </dataPath>
-        <titleLocation>Right</titleLocation>
+        <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>КД3_Прогресс1РасширеннаяПодсказка</name>
-          <id>105</id>
+          <name>КД3_ПрогрессТекстРасширеннаяПодсказка</name>
+          <id>76</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1489,8 +1441,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>КД3_Прогресс1КонтекстноеМеню</name>
-          <id>104</id>
+          <name>КД3_ПрогрессТекстКонтекстноеМеню</name>
+          <id>75</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1498,396 +1450,14 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>ProgressBarField</type>
+        <type>LabelField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:ProgressBarFieldExtInfo">
-          <width>32</width>
-          <autoMaxWidth>true</autoMaxWidth>
-          <height>1</height>
+        <extInfo xsi:type="form:LabelFieldExtInfo">
+          <height>10</height>
           <autoMaxHeight>true</autoMaxHeight>
-          <maxValue>100</maxValue>
-          <showPercent>true</showPercent>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormField">
-        <name>КД3_Прогресс2</name>
-        <id>106</id>
-        <title>
-          <key>ru</key>
-          <value>Прогресс2</value>
-        </title>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КД3_Прогресс2</segments>
-        </dataPath>
-        <titleLocation>Right</titleLocation>
-        <extendedTooltip>
-          <name>КД3_Прогресс2РасширеннаяПодсказка</name>
-          <id>108</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>КД3_Прогресс2КонтекстноеМеню</name>
-          <id>107</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>ProgressBarField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:ProgressBarFieldExtInfo">
-          <width>32</width>
-          <autoMaxWidth>true</autoMaxWidth>
-          <height>1</height>
-          <autoMaxHeight>true</autoMaxHeight>
-          <maxValue>100</maxValue>
-          <showPercent>true</showPercent>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormField">
-        <name>КД3_Прогресс3</name>
-        <id>109</id>
-        <title>
-          <key>ru</key>
-          <value>Прогресс3</value>
-        </title>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КД3_Прогресс3</segments>
-        </dataPath>
-        <titleLocation>Right</titleLocation>
-        <extendedTooltip>
-          <name>КД3_Прогресс3РасширеннаяПодсказка</name>
-          <id>111</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>КД3_Прогресс3КонтекстноеМеню</name>
-          <id>110</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>ProgressBarField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:ProgressBarFieldExtInfo">
-          <width>32</width>
-          <autoMaxWidth>true</autoMaxWidth>
-          <height>1</height>
-          <autoMaxHeight>true</autoMaxHeight>
-          <maxValue>100</maxValue>
-          <showPercent>true</showPercent>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormField">
-        <name>КД3_Прогресс4</name>
-        <id>112</id>
-        <title>
-          <key>ru</key>
-          <value>Прогресс4</value>
-        </title>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КД3_Прогресс4</segments>
-        </dataPath>
-        <titleLocation>Right</titleLocation>
-        <extendedTooltip>
-          <name>КД3_Прогресс4РасширеннаяПодсказка</name>
-          <id>114</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>КД3_Прогресс4КонтекстноеМеню</name>
-          <id>113</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>ProgressBarField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:ProgressBarFieldExtInfo">
-          <width>32</width>
-          <autoMaxWidth>true</autoMaxWidth>
-          <height>1</height>
-          <autoMaxHeight>true</autoMaxHeight>
-          <maxValue>100</maxValue>
-          <showPercent>true</showPercent>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormField">
-        <name>КД3_Прогресс5</name>
-        <id>115</id>
-        <title>
-          <key>ru</key>
-          <value>Прогресс5</value>
-        </title>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КД3_Прогресс5</segments>
-        </dataPath>
-        <titleLocation>Right</titleLocation>
-        <extendedTooltip>
-          <name>КД3_Прогресс5РасширеннаяПодсказка</name>
-          <id>117</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>КД3_Прогресс5КонтекстноеМеню</name>
-          <id>116</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>ProgressBarField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:ProgressBarFieldExtInfo">
-          <width>32</width>
-          <autoMaxWidth>true</autoMaxWidth>
-          <height>1</height>
-          <autoMaxHeight>true</autoMaxHeight>
-          <maxValue>100</maxValue>
-          <showPercent>true</showPercent>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormField">
-        <name>КД3_Прогресс6</name>
-        <id>118</id>
-        <title>
-          <key>ru</key>
-          <value>Прогресс6</value>
-        </title>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КД3_Прогресс6</segments>
-        </dataPath>
-        <titleLocation>Right</titleLocation>
-        <extendedTooltip>
-          <name>КД3_Прогресс6РасширеннаяПодсказка</name>
-          <id>120</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>КД3_Прогресс6КонтекстноеМеню</name>
-          <id>119</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>ProgressBarField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:ProgressBarFieldExtInfo">
-          <width>32</width>
-          <autoMaxWidth>true</autoMaxWidth>
-          <height>1</height>
-          <autoMaxHeight>true</autoMaxHeight>
-          <maxValue>100</maxValue>
-          <showPercent>true</showPercent>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormField">
-        <name>КД3_Прогресс7</name>
-        <id>121</id>
-        <title>
-          <key>ru</key>
-          <value>Прогресс7</value>
-        </title>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КД3_Прогресс7</segments>
-        </dataPath>
-        <titleLocation>Right</titleLocation>
-        <extendedTooltip>
-          <name>КД3_Прогресс7РасширеннаяПодсказка</name>
-          <id>123</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>КД3_Прогресс7КонтекстноеМеню</name>
-          <id>122</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>ProgressBarField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:ProgressBarFieldExtInfo">
-          <width>32</width>
-          <autoMaxWidth>true</autoMaxWidth>
-          <height>1</height>
-          <autoMaxHeight>true</autoMaxHeight>
-          <maxValue>100</maxValue>
-          <showPercent>true</showPercent>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormField">
-        <name>КД3_Прогресс8</name>
-        <id>124</id>
-        <title>
-          <key>ru</key>
-          <value>Прогресс8</value>
-        </title>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КД3_Прогресс8</segments>
-        </dataPath>
-        <titleLocation>Right</titleLocation>
-        <extendedTooltip>
-          <name>КД3_Прогресс8РасширеннаяПодсказка</name>
-          <id>126</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>КД3_Прогресс8КонтекстноеМеню</name>
-          <id>125</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>ProgressBarField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:ProgressBarFieldExtInfo">
-          <width>32</width>
-          <autoMaxWidth>true</autoMaxWidth>
-          <height>1</height>
-          <autoMaxHeight>true</autoMaxHeight>
-          <maxValue>100</maxValue>
-          <showPercent>true</showPercent>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -2057,7 +1627,8 @@
       </title>
       <toolTip>
         <key>ru</key>
-        <value>Режим работы</value>
+        <value>- На клиенте: При при загрузке файлы  будут скопированы во временный каталог. Рекомендуется при возможной блокировки/изменения файлов во время загрузки.
+- На сервере: При загрузке файлы будут обрабатываться сразу из указанного каталога загрузки.</value>
       </toolTip>
       <extendedTooltip>
         <name>КД3_РежимРаботыРасширеннаяПодсказка</name>
@@ -2118,74 +1689,6 @@
     <main>true</main>
   </attributes>
   <attributes>
-    <name>АдресФайлаЗагрузки</name>
-    <title>
-      <key>ru</key>
-      <value>Адрес файла загрузки</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>АдресХранилищаРезультата</name>
-    <title>
-      <key>ru</key>
-      <value>Адрес хранилища результата</value>
-    </title>
-    <id>3</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ДлительнаяОперация</name>
-    <title>
-      <key>ru</key>
-      <value>Длительная операция</value>
-    </title>
-    <id>4</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИдентификаторЗадания</name>
-    <title>
-      <key>ru</key>
-      <value>Идентификатор задания</value>
-    </title>
-    <id>5</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>СпособЗагрузки</name>
     <title>
       <key>ru</key>
@@ -2199,21 +1702,6 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИдентификаторХраненияФайлов</name>
-    <title>
-      <key>ru</key>
-      <value>Идентификатор хранения файлов</value>
-    </title>
-    <id>7</id>
-    <valueType/>
     <view>
       <common>true</common>
     </view>
@@ -2256,7 +1744,11 @@
     </edit>
   </attributes>
   <attributes>
-    <name>КД3_Прогресс0</name>
+    <name>КД3_ПрогрессПроцент</name>
+    <title>
+      <key>ru</key>
+      <value>Прогресс процент (КД3)</value>
+    </title>
     <id>11</id>
     <valueType>
       <types>Number</types>
@@ -2272,7 +1764,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>КД3_ПрогрессТекст0</name>
+    <name>КД3_ПрогрессТекст</name>
     <title>
       <key>ru</key>
       <value>Прогресс текст (КД3)</value>
@@ -2319,134 +1811,6 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КД3_Прогресс1</name>
-    <id>8</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КД3_Прогресс2</name>
-    <id>16</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КД3_Прогресс3</name>
-    <id>15</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КД3_Прогресс4</name>
-    <id>17</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КД3_Прогресс5</name>
-    <id>18</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КД3_Прогресс6</name>
-    <id>19</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КД3_Прогресс7</name>
-    <id>20</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КД3_Прогресс8</name>
-    <id>21</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>
@@ -2521,10 +1885,6 @@
       <value>На клиенте</value>
     </title>
     <id>2</id>
-    <toolTip>
-      <key>ru</key>
-      <value>К д3 на клиенте</value>
-    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -2542,10 +1902,6 @@
       <value>На сервере</value>
     </title>
     <id>3</id>
-    <toolTip>
-      <key>ru</key>
-      <value>К д3 на сервере</value>
-    </toolTip>
     <use>
       <common>true</common>
     </use>

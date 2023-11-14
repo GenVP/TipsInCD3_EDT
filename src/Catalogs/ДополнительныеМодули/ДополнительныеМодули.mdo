@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d62c5380-685c-41a6-abf7-66706f2ec44a" extendedConfigurationObject="9277e377-fc68-4abf-95f2-856b2ad29e8e">
+  <producedTypes>
+    <objectType typeId="162a6a80-b90a-4b4e-a2fc-0431db62ae13" valueTypeId="cda84474-0b87-4713-a04a-b090662ada90"/>
+    <refType typeId="e9f79915-7982-41f2-8a66-9912424aca7a" valueTypeId="db4fcf59-f2b3-4f58-9c28-6cabbf78b041"/>
+    <selectionType typeId="b207be12-b88a-43f0-849a-b23567b9e254" valueTypeId="6ea7fbb7-8702-4ba8-afc5-3213f25a4695"/>
+    <listType typeId="9cd055e0-5c27-4379-943b-52e78cdbe547" valueTypeId="a9c1c769-2060-4a3b-9041-ffc186424a2f"/>
+    <managerType typeId="c52d84e1-bc5b-4504-8640-5be476ddb2e7" valueTypeId="5afb4c1b-5ba5-4397-ae6c-1b8927581b42"/>
+  </producedTypes>
+  <name>ДополнительныеМодули</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="4c395b59-2caf-4f23-b65c-0295f29e78fa" extendedConfigurationObject="6a4145cd-9e3d-41d9-8bca-c81f97285cff">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="df41b592-3ec5-4813-b37f-5876a077fedc" extendedConfigurationObject="d1d8bc23-d59a-40e5-b008-c851035817a3">
+    <name>Раздел</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.РазделыДополнительныхМодулей</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>
